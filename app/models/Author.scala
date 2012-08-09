@@ -4,7 +4,7 @@ class Author(name: String) {
 	def getName: String = {
 		return name
 	}
-	def getGangster: Boolean = {
-		return true
-	}
+	
+	def isGangster = true
+	def isNinja = false
 }
